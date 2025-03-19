@@ -1,4 +1,3 @@
-name: healpy
 channels:
   - conda-forge
 dependencies:
