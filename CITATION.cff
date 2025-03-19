@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: xarray-healpy
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Magin"
+    given-names: "Justus"
+    orcid: "https://orcid.org/0000-0002-4254-8002"
+  - family-names: "Delouis"
+    given-names: "Jean-Marc"
+    orcid: "https://orcid.org/0000-0002-0713-1658"
+  - family-names: "Odaka"
+    given-names: "Tina"
+    orcid: "https://orcid.org/0000-0002-1500-0156"
+  - family-names: "Mazouni"
+    given-names: "Quentin"
+    orcid: "https://orcid.org/0009-0003-3519-5514"
+repository-code: "https://github.com/IAOCEA/xarray-healpy"
+keywords:
+  - pangeo
+  - xarray
+  - zarr
+  - dask
+  - healpix
+  - regridding
+  - oceanography
+license: MIT
