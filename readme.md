@@ -1,3 +1,6 @@
+[![PyPI version](https://img.shields.io/pypi/v/xarray-healpy.svg)](https://pypi.org/project/xarray-healpy)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15050695.svg)](https://doi.org/10.5281/zenodo.15050695)
+
 # Xarray-Healpy
 
 **Xarray-Healpy** is designed to convert georeferenced data expressed in latitude and longitude into a Healpix grid (https://healpix.sourceforge.io) and make use of the array indexing system provided by **Xarray** (http://xarray.pydata.org).
