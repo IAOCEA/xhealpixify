@@ -10,18 +10,8 @@ dependencies:
   - sphinx-copybutton
   - myst-parser
   - sphinx-remove-toctrees
-  # from pyproject.toml
-  - xarray>=2023.11.0
-  - healpy
-  - sparse
-  - opt_einsum
-  - numba
-  - numpy
-  - sparse
-  - scikit-learn
-  - opt_einsum
-  - cdshealpix
-  - astropy
+  - ipython
+  - pygments
   - pip
   - pip:
       - nbsphinx_link>=1.3.1
