@@ -16,9 +16,9 @@ class HealpyRegridder:
 
     Parameters
     ----------
-    source_grid : xr.Dataset
+    source_grid : xarray.Dataset
         The source dataset. Has to have ``"latitude"`` and ``"longitude"`` coordinates.
-    target_grid : xr.Dataset
+    target_grid : xarray.Dataset
         The target grid. Has to have ``"latitude"`` and ``"longitude"`` coordinates.
     method : str, default: "bilinear"
         The interpolation method. For now, only bilinear exists.
@@ -60,12 +60,12 @@ class HealpyRegridder:
 
         Parameters
         ----------
-        ds : xr.Dataset
+        ds : xarray.Dataset
             The input dataset.
 
         Returns
         -------
-        regridded : xr.Dataset
+        regridded : xarray.Dataset
             The regridded dataset
         """
 
