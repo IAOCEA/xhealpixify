@@ -56,16 +56,16 @@ def astronomic_to_cartesian(theta, phi, dim="receiver_id"):
 
     Parameters
     ----------
-    theta : DataArray
+    theta : xarray.DataArray
         astronomic colatitude, in degrees
-    phi : DataArray
+    phi : xarray.DataArray
         astronomic longitude, in degrees
     dim : hashable
         Name of the dimension
 
     Returns
     -------
-    cartesian : Dataset
+    cartesian : xarray.Dataset
         Cartesian coordinates
 
     See Also
@@ -91,12 +91,12 @@ def astronomic_to_cell_ids(nside, phi, theta):
     ----------
     nside : int
         Healpix resolution level
-    phi, theta : xr.DataArray
+    phi, theta : xarray.DataArray
         astronomic longitude and colatitude, in degrees
 
     Returns
     -------
-    cell_ids : xr.DataArray
+    cell_ids : xarray.DataArray
         The computed cell ids
     """
     phi_, theta_ = dask.compute(phi, theta)

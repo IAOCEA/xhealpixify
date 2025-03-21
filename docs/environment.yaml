@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # docs' requirements
+  - sphinx
+  - nbsphinx
+  - pandoc
+  - sphinx-book-theme
+  - sphinx-copybutton
+  - myst-parser
+  - sphinx-remove-toctrees
+  - ipython
+  - pygments
+  - pip
+  - pip:
+      - nbsphinx_link>=1.3.1
+      - -e ../.

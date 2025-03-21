@@ -1,3 +1,9 @@
-sphinx>=4
-sphinx_book_theme
-ipython
+sphinx
+nbsphinx
+pandoc
+sphinx-book-theme
+sphinx-copybutton
+myst-parser
+sphinx-remove-toctrees
+nbsphinx_link>=1.3.1
+-e .
