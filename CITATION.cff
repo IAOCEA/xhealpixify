@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: xarray-healpy
+title: xhealpixify
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -15,7 +15,7 @@ authors:
   - family-names: "Mazouni"
     given-names: "Quentin"
     orcid: "https://orcid.org/0009-0003-3519-5514"
-repository-code: "https://github.com/IAOCEA/xarray-healpy"
+repository-code: "https://github.com/IAOCEA/xhealpixify"
 keywords:
   - pangeo
   - xarray

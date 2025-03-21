@@ -8,7 +8,7 @@ on:
 jobs:
   build-artifacts:
     runs-on: ubuntu-latest
-    if: github.repository == 'IAOCEA/xarray-healpy'
+    if: github.repository == 'IAOCEA/xhealpixify'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,7 +40,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/xarray-healpy
+      url: https://pypi.org/p/xhealpixify
     permissions:
       id-token: write
 

@@ -1,4 +1,4 @@
-Welcome to xarray-healpy's documentation!
+Welcome to xhealpixify's documentation!
 =========================================
 
 .. toctree::

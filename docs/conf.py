@@ -1,6 +1,6 @@
 import datetime as dt
 
-project = "xarray-healpy"
+project = "xhealpixify"
 author = f"{project} developers"
 initial_year = "2023"
 year = dt.datetime.now().year

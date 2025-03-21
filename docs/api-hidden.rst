@@ -1,6 +1,6 @@
 :orphan:
 
-.. currentmodule:: xarray_healpy
+.. currentmodule:: xhealpixify
 
 .. autosummary::
     :toctree: generated/

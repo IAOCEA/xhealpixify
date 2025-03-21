@@ -1,5 +1,5 @@
 [project]
-name = "xarray-healpy"
+name = "xhealpixify"
 requires-python = ">= 3.10"
 license = {text = "MIT"}
 description = "Tool for converting latitude/longitude data into HEALPix grids."
@@ -26,7 +26,7 @@ requires = ["setuptools>=64.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["xarray_healpy"]
+packages = ["xhealpixify"]
 
 [tool.setuptools_scm]
 fallback_version = "9999"
@@ -67,7 +67,7 @@ fixable = ["I", "TID"]
 
 
 [tool.ruff.lint.isort]
-known-first-party = ["xarray_healpy"]
+known-first-party = ["xhealpixify"]
 known-third-party = []
 
 [tool.ruff.lint.flake8-tidy-imports]
