@@ -6,7 +6,7 @@ Classes
 -------
 
 
-.. currentmodule:: xarray_healpy
+.. currentmodule:: xhealpixify
 .. autosummary::
    :toctree: generated
 
@@ -17,7 +17,7 @@ Classes
 Coordinate Conversions
 ----------------------
 
-.. currentmodule:: xarray_healpy.conversions
+.. currentmodule:: xhealpixify.conversions
 .. autosummary::
    :toctree: generated
 
@@ -30,7 +30,7 @@ Coordinate Conversions
 Miscellaneous Functions
 -----------------------
 
-.. currentmodule:: xarray_healpy
+.. currentmodule:: xhealpixify
 .. autosummary::
    :toctree: generated
 
